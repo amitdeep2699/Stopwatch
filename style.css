@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+.btn_l {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    width: 5rem;
+    height: 5rem;
+    outline: 2px solid rgb(53, 53, 53);
+    outline-offset: 5px;
+    font-size: 1.05rem;
+    color: white;
+}
+
+.btn_r {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(56, 67, 112);
+    padding: 10px;
+    width: 5rem;
+    height: 5rem;
+    outline: 2px solid rgb(56, 67, 112);
+    outline-offset: 5px;
+    font-size: 1.05rem;
+    color: white;
+}
+
+.btn_sto {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(53, 22, 20);
+    padding: 10px;
+    width: 5rem;
+    height: 5rem;
+    outline: 2px solid rgb(53, 22, 20);
+    outline-offset: 5px;
+    font-size: 1.05rem;
+    color: rgb(167, 17, 9);
+}
+
+.btn_st {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(84, 143, 57);
+    padding: 10px;
+    width: 5rem;
+    height: 5rem;
+    outline: 2px solid rgb(84, 143, 57);
+    outline-offset: 5px;
+    font-size: 1.05rem;
+    color: white;
+}
+
+#timer {
+    font-size: 5rem;
+    color: rgb(223, 110, 60);
+
+}
+
+.btn_l:hover {
+    box-shadow: 0px 0px 2px 5px rgb(53, 53, 53);
+}
+
+.btn_r:hover {
+    box-shadow: 0px 0px 2px 5px rgb(56, 67, 112);
+}
+
+.btn_st:hover {
+    box-shadow: 0px 0px 2px 5px rgb(84, 143, 57);
+}
+
+.btn_sto:hover {
+    box-shadow: 0px 0px 2px 5px rgb(53, 22, 20);
+}
+
+.col-6 {
+    border-color: rgb(53, 53, 53);
+    font-size: 1.2rem;
+    text-align: none;
+    color: rgb(226, 217, 217);
+}
+
+#data_1 {
+    overflow-y: auto;
+}
